@@ -1,11 +1,7 @@
 // program.js
 
-function repeat(operation, num) {
-	if (num > 0) {
-		operation();
-		repeat(operation, num-1);
-	}
-	return;
+function countWords(inputWords) {
+
 }
 
-module.exports = repeat;
+module.exports = countWords;
