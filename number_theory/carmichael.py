@@ -16,13 +16,12 @@ def composite(i):
 		if i%n == 0:
 			return True
 		n += 1
-
 	return False
 
 def main():
 	i = 6
-	while i < 10000000: #0000000000000000000000000000:
-		if composite(i) == True:
+	while i < 100000000000000000000000000000000000:
+		if composite(i):
 			carmichael(i)
 		i += 1
 
