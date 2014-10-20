@@ -2,6 +2,7 @@
 #is a prime number p such that p2 divides (p − 1)! + 1, where "!" 
 #denotes the factorial function; compare this with Wilson's theorem, 
 #which states that every prime p divides (p − 1)! + 1.
+# Source: Wikipedia, Wilson Primes
 
 import math
 
